@@ -1,0 +1,42 @@
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo--wrap {
+  padding: 40px 30px 40px 0;
+}
+.header__logo {
+  color: #054c73;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.45px;
+}
+
+.header__nav--list {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 60px;
+}
+
+.header__nav--item {
+  font-size: 18px;
+  line-height: 17px;
+  font-weight: 600;
+
+  :hover {
+    background-color: rgb(119, 160, 160);
+    border-radius: 14px;
+    transition: background-color 0.5s ease;
+    color: azure;
+  }
+}
+
+.header__nav--link {
+  color: #333333;
+  padding: 10px;
+}

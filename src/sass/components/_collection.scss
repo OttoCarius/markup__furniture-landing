@@ -1,0 +1,33 @@
+.collection__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection__title {
+  font-size: 32px;
+  font-weight: 700;
+  list-style: 39px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.collection__text {
+  font-size: 20px;
+  font-weight: 400;
+  list-style: 24px;
+  margin-bottom: 80px;
+  color: #666666;
+}
+.collection__photo--wrap {
+  display: flex;
+  gap: 40px;
+}
+
+.photo-up {
+  padding-bottom: 40px;
+  margin-top: -40px;
+}
+.collection__photo {
+  margin-bottom: 60px;
+  width: 434px;
+}
