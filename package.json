@@ -5,7 +5,7 @@
   "homepage": "https://github.com/OttoCarius/markup__furniture-landing",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /markup__furniture-landing/"
+    "build": "parcel build src/*.html --public-url /markup__furniture-landing"
   },
   "repository": {
     "type": "git",
