@@ -7,9 +7,21 @@
 .collection__title {
   font-size: 32px;
   font-weight: 700;
-  list-style: 39px;
+  line-height: 39px;
   margin-bottom: 20px;
   color: #333;
+
+  @media (max-width: 1000px) {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  @media (max-width: 530px) {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+  }
 }
 .collection__text {
   font-size: 20px;
@@ -17,17 +29,52 @@
   list-style: 24px;
   margin-bottom: 80px;
   color: #666666;
+  text-align: center;
+
+  @media (max-width: 530px) {
+    font-size: 18px;
+    font-weight: 400;
+    list-style: 18px;
+    margin-bottom: 20px;
+  }
 }
 .collection__photo--wrap {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
+  width: 300px;
+
+  @media (max-width: 1000px) {
+    gap: 10px;
+    width: 240px;
+  }
+
+  @media (max-width: 760px) {
+    gap: 6px;
+    width: 170px;
+  }
+
+  @media (max-width: 530px) {
+    flex-direction: column;
+    width: 280px;
+  }
 }
 
 .photo-up {
   padding-bottom: 40px;
   margin-top: -40px;
+
+  @media (max-width: 530px) {
+    padding-bottom: 0;
+    margin-top: 0;
+  }
 }
 .collection__photo {
   margin-bottom: 60px;
   width: 434px;
+
+  @media (max-width: 530px) {
+    margin-bottom: 10px;
+  }
 }
